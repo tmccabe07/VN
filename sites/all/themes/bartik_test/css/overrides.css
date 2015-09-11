@@ -1,0 +1,37 @@
+.view-front-page-slideshow .views-field-field-slider-image{
+  position: relative;
+  left: 100px;
+}
+.view-front-page-slideshow .views-field-title{
+  position: absolute;
+  top: 255px;
+  left: 550px;
+  font-size: 20px;
+  background-color: #e9f5ca;
+  width: 250px;
+  text-shadow: none;
+}
+.view-front-page-slideshow .views-field-body{
+  position: absolute;
+  top: 285px;
+  left: 550px;
+  font-size: 10px;
+  background-color: #e9f5ca;
+  width: 250px;
+  text-shadow: none;
+}
+.view-front-page-slideshow .views-field-counter{
+ float: left;
+ padding: 20px 10px;
+ background: url("../images/slide_inactive.png") top left no-repeat;
+ width: 10px;
+ }
+ .view-front-page-slideshow .active .views-field-counter{
+ background: url("../images/slide_active.png") top left no-repeat;
+ }
+ .view-front-page-slideshow .views-content-counter{
+display: none;
+ }
+ .view-front-page-slideshow .views-slideshow-controls-bottom{
+ margin-left: 380px;
+ }
